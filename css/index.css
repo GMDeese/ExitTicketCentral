@@ -6,3 +6,34 @@ p {
   display: flex;
   justify-content: center;
 }
+
+body {
+  margin-bottom: 5000px;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: lightgrey;
+}
+
+#white {
+  background-color: white;
+  position: relative;
+  border: 2px dashed;
+}
+
+#moveme {
+  background-color: lightgreen;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#icon {
+  width: 10px;
+}
+
+#wrapper input {
+  position: absolute;
+}
